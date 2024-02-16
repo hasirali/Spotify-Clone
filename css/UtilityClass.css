@@ -1,7 +1,7 @@
-.border{
+/* .border{
     border: 2px solid green;
     margin: 3px;
-}
+} */
 .flex{
     display: flex;
 }
@@ -14,6 +14,9 @@
 .bg-black{
     background-color: black;
     color: white;
+}
+.bg-dark-grey{
+    background-color: #545454;
 }
 .bg-grey{
     background-color: #181818ad;
