@@ -16,6 +16,9 @@ body{
 .right{
     margin-top: 10px ;
     width: 75vw;
+    position: relative;
+    height: 95vh;
+    border-radius: 7px;
 
 }
 .home{
@@ -87,15 +90,19 @@ h1{
     padding: 20px;
     margin: 13px 8px;
     border-radius: 10px;
+    max-height: 70vh;
+    overflow-y: scroll;
     
 }
 
 .card{
+    position: relative;
     /* border: 2px solid red; */
     background-color: #252525;
     width: 12vw;
     padding: 10px;
     border-radius: 10px;
+    position: relative;
 
 
 }
@@ -103,4 +110,65 @@ h1{
     width :100%;
     object-fit: contain;
     border-radius: 10px;
+}
+.play {
+    position: absolute;
+    background-color: #2cb91f;
+    border-radius: 50%;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 100px;
+    right: 20px;
+    opacity: var(--a);
+    transition: all 1s ease-out;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    padding: 9px;
+    margin: 3px 27px; 
+}
+.signupbtn {
+    background-color: rgb(34 34 34);
+    color: rgb(156, 148, 148);
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.signupbtn:hover {
+    font-size: 17px;
+    color: white
+}
+
+.loginbtn {
+    background-color: white;
+    border-radius: 21px;
+    padding: 10px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.loginbtn:hover {
+    font-weight: bold;
+    font-size: 17px;
+}
+.playbar{
+    margin: 10px 10px;
+    position: absolute;
+    bottom: 0;
+    background-color: pink;
+    width: 95%;
+    padding: 7px ;
+    border-radius: 7px;
+}
+.songbuttons{
+    gap: 24px;
+ 
 }
